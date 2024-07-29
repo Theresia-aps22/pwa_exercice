@@ -1,0 +1,17 @@
+{
+    "lang": "en-us",
+    "name": "Convertisseur de température",
+    "short_name": "CTA",
+    "description": "Conversion d'une température en Celsius, Kelvin, et Fahrenheit",
+    "start_url": "/",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/icon.png",
+            "sizes": "512*512"
+        }
+    ]
+}

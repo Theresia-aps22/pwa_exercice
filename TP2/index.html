@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car PWA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <h1>Car Rental Service</h1>
+    <form id="rental-form">
+        <label for="car">Select Car:</label>
+        <select id="car">
+            <option value="sedan">Sedan</option>
+            <option value="suv">SUV</option>
+            <option value="hatchback">Hatchback</option>
+        </select>
+        <label for="duration">Rental Duration (days):</label>
+        <input type="number" id="duration" min="1" max="30" required>
+        <button type="submit">Rent Now</button>
+    </form>
+    <div id="confirmation"></div>
+    <script src="app.js"></script>
+</body>
+</html>

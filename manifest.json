@@ -1,0 +1,22 @@
+{
+    "name": "Catalogue de Produits",
+    "short_name": "Catalogue",
+    "description": "Une application PWA pour gérer un catalogue de produits hors ligne.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "icons": [
+      {
+        "src": "/images/icon.jpg",
+        "sizes": "192x192",
+        "type": "image/jpg"
+      },
+      {
+        "src": "/images/icon.jpg",
+        "sizes": "512x512",
+        "type": "image/jpg"
+      }
+    ]
+  }
+  

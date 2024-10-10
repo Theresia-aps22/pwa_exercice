@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue de Produits</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Catalogue de Produits</h1>
+
+        <!-- Formulaire pour ajouter des produits -->
+        <form id="productForm">
+            <label for="productName">Nom du produit:</label>
+            <input type="text" id="productName" required>
+
+            <label for="productPrice">Prix:</label>
+            <input type="number" id="productPrice" required>
+
+            <label for="productCategory">Catégorie:</label>
+            <input type="text" id="productCategory" required>
+
+            <input type="hidden" id="productId">
+
+            <button type="submit" id="addProductButton">Ajouter le produit</button>
+            <button type="button" id="updateProductButton" style="display:none;">Modifier le produit</button>
+        </form>
+
+        <h2>Liste des produits</h2>
+        <ul id="productList"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
